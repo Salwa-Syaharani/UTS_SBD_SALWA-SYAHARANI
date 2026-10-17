@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AC10000-E4AF-BEAC-3D57-D6D3EF59F2CC" name="SPONSORS">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONGRESS_PERSON_Congressperson_ID" id="722E11B2-662F-1152-3674-044F1AA621F2">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5F402AB-326D-2B27-70E6-881453765414" referredColumn="6029B4C4-359F-61CC-9D34-9F1F3A585002"/>
+</associations>
+</Column>
+<Column name="BILL_Bill_ID" id="80DBE947-29A5-C204-0DA1-848D3505EF1B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58F10D50-72AC-3F8F-F135-CBAA0E14FFF4" referredColumn="37A11E21-8290-003C-EC2D-08BCAD267F55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8AA3FC6-9849-0AAC-30AE-AE3B62D2DEFC" name="SPONSORS_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="722E11B2-662F-1152-3674-044F1AA621F2"/>
+<colUsage columnID="80DBE947-29A5-C204-0DA1-848D3505EF1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5C75C6C-0C5A-A858-CF02-9290F4F4FAF5" name="SPONSORS_CONGRESS_PERSON_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>282DA4A9-A00D-0BD3-F52D-316531512FF7</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="722E11B2-662F-1152-3674-044F1AA621F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C91770E-B144-7DFB-39A7-F4CD4A434AED" name="SPONSORS_BILL_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>282DA4A9-A00D-0BD3-F52D-316531512FF7</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80DBE947-29A5-C204-0DA1-848D3505EF1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

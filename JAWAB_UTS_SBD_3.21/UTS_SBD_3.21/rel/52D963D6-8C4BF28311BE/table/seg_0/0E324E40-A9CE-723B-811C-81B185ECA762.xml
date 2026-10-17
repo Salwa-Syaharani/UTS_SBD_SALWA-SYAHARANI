@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E324E40-A9CE-723B-811C-81B185ECA762" name="CONGRESS_PERSON">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>AD62A42B-77A0-60F6-06F8-00D67862764C</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Congressperson_ID" id="6029B4C4-359F-61CC-9D34-9F1F3A585002">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>3AB30CA1-0C96-47AF-3B58-E5752DFA0B8E</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="11886AC6-8945-25E4-2C52-359CBAA094B7">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>0835FEC7-B750-99DA-20EC-4B5168F31BF4</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="District" id="10B619B4-8CB8-FF8C-0341-BA49B5F1340B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>A97BB8DF-2134-5769-B263-AE0F245CC518</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Date" id="8792A401-D602-BCF9-DF94-AFFD398A0170">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>FB8EEFED-CF1E-83FD-94AF-9CFECAC3C7C4</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party" id="2BAB1616-B1EE-FCD0-1FB3-76EC186DF025">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>E9557023-1164-E1B8-014A-A9D15FF342F5</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_Name" id="E3B36737-987C-5048-C017-F263872DC694">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>7146F194-071E-6CC4-168D-265F7EE4E040</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C793BAD7-2B3E-B67B-FB1E-B47BED9688F3" referredColumn="07A5E687-6E19-AFDA-EFF0-4DEBF46462C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20FD644D-B4B5-BD2B-F47F-4E119A1E343B" name="CONGRESS_PERSON_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>8B9C202F-D5CD-2063-36E7-480D118B9E5C</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6029B4C4-359F-61CC-9D34-9F1F3A585002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A67ED5B9-6970-A331-CF19-A5F8B2772FF9" name="CONGRESS_PERSON_STATE_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>FFA775F4-F6DC-B796-EAEF-79628D65316D</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3B36737-987C-5048-C017-F263872DC694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
