@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42E34A8F-4C90-37D1-DE98-64322DBE2BC7" name="BILL">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:02:20 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Bill_ID" id="839842D5-8F55-6B4C-0423-A531356EEC27">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:02:36 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bill_Name" id="CC2CE154-D4D9-1476-7A64-BECB32A01B03">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:02:44 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_of_Vote" id="A2AC0BD0-3E30-01C1-6D13-1C1855D12938">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:02:54 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Passes_or_Failed" id="0D00A2E4-C94B-A42D-5D53-7726214EC017">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:03:00 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09BCE41B-F1ED-4DB2-AC93-65D217F9193A" name="BILL PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:03:25 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>839842D5-8F55-6B4C-0423-A531356EEC27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

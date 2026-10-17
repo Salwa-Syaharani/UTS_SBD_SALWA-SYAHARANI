@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD62A42B-77A0-60F6-06F8-00D67862764C" name="CONGRESS_PERSON">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 13:59:51 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Congressperson_ID" id="3AB30CA1-0C96-47AF-3B58-E5752DFA0B8E">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:00:24 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0835FEC7-B750-99DA-20EC-4B5168F31BF4">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:00:32 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="District" id="A97BB8DF-2134-5769-B263-AE0F245CC518">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:00:34 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_Date" id="FB8EEFED-CF1E-83FD-94AF-9CFECAC3C7C4">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:00:39 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party" id="E9557023-1164-E1B8-014A-A9D15FF342F5">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:01:17 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="7146F194-071E-6CC4-168D-265F7EE4E040">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:05:23 UTC</createdTime>
+<generatorID>FFA775F4-F6DC-B796-EAEF-79628D65316D</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<referedAttribute>4117914D-BEC4-E9DA-1AD2-4803D68BECCC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B9C202F-D5CD-2063-36E7-480D118B9E5C" name="CONGRESS_PERSON PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:01:31 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AB30CA1-0C96-47AF-3B58-E5752DFA0B8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

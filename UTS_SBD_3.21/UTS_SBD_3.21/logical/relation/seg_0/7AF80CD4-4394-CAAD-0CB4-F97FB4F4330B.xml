@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VOTES_ON" directorySegmentName="seg_0" id="7AF80CD4-4394-CAAD-0CB4-F97FB4F4330B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:06:24 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AD62A42B-77A0-60F6-06F8-00D67862764C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42E34A8F-4C90-37D1-DE98-64322DBE2BC7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Vote" id="2384EE77-9007-8D56-A79F-DD1556B6877F">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:06:41 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<engineerTo>
+<item key="52D963D6-9EDE-2592-C936-8C4BF28311BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84DDACA6-B897-C99A-C1CB-40C8CA0C2E0F" name="BILL">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>42E34A8F-4C90-37D1-DE98-64322DBE2BC7</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bill_ID" id="37A11E21-8290-003C-EC2D-08BCAD267F55">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>839842D5-8F55-6B4C-0423-A531356EEC27</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bill_Name" id="4BD80015-403F-258E-3928-4C6E069F87AC">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>CC2CE154-D4D9-1476-7A64-BECB32A01B03</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_of_Vote" id="EA9FECCD-F902-6E52-6F62-EC93945A7370">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>A2AC0BD0-3E30-01C1-6D13-1C1855D12938</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Passes_or_Failed" id="94BD3AA7-5BC4-4FF4-8FF0-6643AAD033B1">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>0D00A2E4-C94B-A42D-5D53-7726214EC017</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FC54671-492C-44D0-D7CA-D004C9DB3E97" name="BILL_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:07:06 UTC</createdTime>
+<generatorID>09BCE41B-F1ED-4DB2-AC93-65D217F9193A</generatorID>
+<ownerDesignName>UTS_SBD_3.21</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A11E21-8290-003C-EC2D-08BCAD267F55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
