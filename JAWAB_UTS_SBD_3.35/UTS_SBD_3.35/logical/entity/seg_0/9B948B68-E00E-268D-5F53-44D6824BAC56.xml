@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B948B68-E00E-268D-5F53-44D6824BAC56" name="AIRPLANE_TYPE">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:11:08 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type_name" id="67466A96-F9D4-33FF-C3B6-3562E6B21A94">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:19:09 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Max_seats" id="EFB6472B-9305-BF92-ADA8-53A49D0445EF">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:19:17 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company" id="352997B9-399D-F3E6-7AFA-C63BE965A49A">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:19:25 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="907A6584-2556-10A7-7919-04A117010194" name="AIRPLANE_TYPE PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:19:30 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67466A96-F9D4-33FF-C3B6-3562E6B21A94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

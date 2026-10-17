@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVATION" directorySegmentName="seg_0" id="9CBDC29D-D2DD-A385-5621-DA22F261330F">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:48:59 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>1973AD15-0B6D-7884-D406-B5C57E0FC681</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD834112-EEC9-CE37-3F23-84D1314CDDF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E04580D-01A0-D406-B5E1-EA52CEB802DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Costumer_name" id="62370206-39B6-B2B2-4661-C74C80BCCD21">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:49:30 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Cphone" id="1EB387B9-FE31-98B6-928A-F64F4FF81522">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:49:46 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

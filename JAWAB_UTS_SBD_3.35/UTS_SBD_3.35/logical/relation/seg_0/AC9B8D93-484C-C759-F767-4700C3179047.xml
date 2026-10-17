@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPARTS" directorySegmentName="seg_0" id="AC9B8D93-484C-C759-F767-4700C3179047">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:47:33 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>5E07A763-6A1B-88B7-E938-BAE19092419F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D60BA37-163C-8B2D-DBE6-73976F673E31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AD834112-EEC9-CE37-3F23-84D1314CDDF0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Dep_time" id="B58D05FA-0426-7284-5B4C-B09F82082B46">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:47:49 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

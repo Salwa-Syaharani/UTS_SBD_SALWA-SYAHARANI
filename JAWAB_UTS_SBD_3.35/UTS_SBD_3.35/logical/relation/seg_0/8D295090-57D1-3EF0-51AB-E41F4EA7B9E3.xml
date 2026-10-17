@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARRIVAL_AIRPORT" directorySegmentName="seg_0" id="8D295090-57D1-3EF0-51AB-E41F4EA7B9E3">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:43:20 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>5E07A763-6A1B-88B7-E938-BAE19092419F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D60BA37-163C-8B2D-DBE6-73976F673E31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D9DD368-1F68-9C28-448D-22EBB4128C2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Schedule_arr_time" id="0183E206-DB39-EB4E-4459-CC9BE76357B4">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:43:32 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

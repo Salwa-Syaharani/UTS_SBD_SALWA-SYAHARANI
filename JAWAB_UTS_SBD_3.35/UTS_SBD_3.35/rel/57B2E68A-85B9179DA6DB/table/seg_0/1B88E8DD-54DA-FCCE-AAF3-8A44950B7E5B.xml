@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B88E8DD-54DA-FCCE-AAF3-8A44950B7E5B" name="AIRPORT">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>9D60BA37-163C-8B2D-DBE6-73976F673E31</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airport_code" id="A5F73308-5606-39AC-4676-02B381B0B394">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>7D358FC8-CB0F-B16F-ECEB-66E7AF09B9FA</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="60BA2E30-B638-0312-2A13-B1B3B6D38B9B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>2D5FE4C8-4F72-0017-2F68-48E7A570C197</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="D065B3FD-E53E-9C32-CC67-98254E6A00D1">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>5C67249A-92C7-ABD7-49A9-6740A0AD3BAC</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="C9F61627-74D6-3075-779C-AEF9BE665E40">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>5B82C47F-595A-3CED-20B3-A465F2A05E1A</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F099BE4-0D33-E50C-3634-9376647DE558" name="AIRPORT_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>5E07A763-6A1B-88B7-E938-BAE19092419F</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F73308-5606-39AC-4676-02B381B0B394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

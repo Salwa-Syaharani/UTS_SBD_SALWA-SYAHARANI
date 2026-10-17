@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FARES" directorySegmentName="seg_0" id="38619BB5-11F1-DF8C-6EDC-AB43E68CEA7C">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:46:10 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<sourcePk>A653B4EA-7851-3B32-BB00-44CCC4F79F32</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>360E3CE5-B826-DD49-689E-4378A876AE92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9AD7D2B4-00F5-05BB-3BFA-FD2C4679F292</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

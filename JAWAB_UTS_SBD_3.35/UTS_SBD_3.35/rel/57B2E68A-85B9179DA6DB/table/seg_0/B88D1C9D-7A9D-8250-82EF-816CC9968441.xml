@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B88D1C9D-7A9D-8250-82EF-816CC9968441" name="CAN_LAND">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AIRPORT_Airport_code" id="D9E18C39-7DE4-8C25-D5FF-E62D528C3EBC">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1AD3086-5DCF-BFEA-E870-25A2422D3038" referredColumn="A5F73308-5606-39AC-4676-02B381B0B394"/>
+</associations>
+</Column>
+<Column name="AIRPLANE_TYPE_Type_name" id="815A68D9-532A-6E13-EAA6-67372679409E">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D04CFEE-2D3E-6188-49B2-24127776B726" referredColumn="1E1D23C3-6D2E-6D52-F485-EE344BA46AA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BBF42C8-0660-0013-EE09-680780E47750" name="CAN_LAND_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E18C39-7DE4-8C25-D5FF-E62D528C3EBC"/>
+<colUsage columnID="815A68D9-532A-6E13-EAA6-67372679409E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E608B0A3-2E7A-2AF5-AB8A-0EE75B6BA69C" name="CAN_LAND_AIRPORT_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>0CDEC52B-99C9-A475-16B2-8621C9A6576F</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E18C39-7DE4-8C25-D5FF-E62D528C3EBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FB4B076-36D2-6105-2206-3D16D57448C7" name="CAN_LAND_AIRPLANE_TYPE_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>0CDEC52B-99C9-A475-16B2-8621C9A6576F</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="815A68D9-532A-6E13-EAA6-67372679409E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

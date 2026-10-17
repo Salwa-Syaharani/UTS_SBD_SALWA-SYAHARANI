@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="UTS_SBD_3.35" id="CFE296E0-2C13-C572-9CB2-6E99C39F13A7" version="3.5">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:54:10 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CFE296E0-2C13-C572-9CB2-6E99C39F13A7</designId>
+</OSDM_Design>

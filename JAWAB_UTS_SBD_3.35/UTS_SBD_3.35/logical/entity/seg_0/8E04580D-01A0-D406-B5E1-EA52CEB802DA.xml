@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E04580D-01A0-D406-B5E1-EA52CEB802DA" name="SEAT">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:38:51 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Seat_no" id="DF4CEDE7-BE6B-4394-4E8E-9C1FD26AA51B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:38:58 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="285ADA38-0DDD-60E7-0EE5-2C77B33B84C9">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:48:59 UTC</createdTime>
+<generatorID>9CBDC29D-D2DD-A385-5621-DA22F261330F</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>67B0B8E6-41EE-FCCB-9797-9202F0DC9F82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FA9CA6F-71DA-DEB7-75CF-B08C00FD68C1" name="SEAT PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:39:41 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF4CEDE7-BE6B-4394-4E8E-9C1FD26AA51B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

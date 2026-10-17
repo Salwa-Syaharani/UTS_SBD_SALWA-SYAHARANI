@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34148956-B122-EA1D-1EBD-EE2E624CFD52" name="AIRPLANE">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>8AF7541E-C51C-36C9-E066-47FA78D8E9D5</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airplane_id" id="3F59EC60-B59C-71F7-C147-2EF6200C9D0E">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>EDC83108-6912-E3BB-2913-F7C75D973F6C</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_no_of_seats" id="C7149E2C-916A-A145-6C9B-6D55CEF63C89">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>AD80E8F2-756B-53A0-7727-86F7AC312C3B</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AIRPLANE_TYPE_Type_name" id="5871719D-DCE9-9074-4B0C-8B96565EDE9B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>BA2314CA-CC22-0B97-95D4-349BAAB7575F</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE618E9D-1056-55BD-05FD-F1F5CADDDF29" referredColumn="1E1D23C3-6D2E-6D52-F485-EE344BA46AA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BFA311B-70DE-2BBB-8D8A-3644B7713910" name="AIRPLANE_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>F0891CB8-1BC8-FC8F-65C5-BA42E56BF09A</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F59EC60-B59C-71F7-C147-2EF6200C9D0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F027C571-851D-75DD-73CE-C39093ADA078" name="AIRPLANE_AIRPLANE_TYPE_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>E18C8E4C-858E-9F8C-7E92-F281EF205094</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5871719D-DCE9-9074-4B0C-8B96565EDE9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CAN_LAND" directorySegmentName="seg_0" id="0CDEC52B-99C9-A475-16B2-8621C9A6576F">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:44:56 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9D60BA37-163C-8B2D-DBE6-73976F673E31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B948B68-E00E-268D-5F53-44D6824BAC56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

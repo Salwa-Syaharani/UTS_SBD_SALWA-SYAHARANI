@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INSTANCE_OF" directorySegmentName="seg_0" id="36FC432B-FD19-6F49-446A-284514FE380A">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:46:29 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D9DD368-1F68-9C28-448D-22EBB4128C2D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AD834112-EEC9-CE37-3F23-84D1314CDDF0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

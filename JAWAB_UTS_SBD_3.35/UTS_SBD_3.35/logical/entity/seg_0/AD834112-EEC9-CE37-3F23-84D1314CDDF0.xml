@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD834112-EEC9-CE37-3F23-84D1314CDDF0" name="LEG_INSTANCE">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:37:24 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date" id="67B0B8E6-41EE-FCCB-9797-9202F0DC9F82">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:37:33 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_of_avail_seat" id="0D0C26C9-D242-A6DC-578B-1061874D8B47">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:38:32 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airplane_id" id="25EBEBFC-02DC-5AB0-5A3A-162064075432">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:47:01 UTC</createdTime>
+<generatorID>442ED351-1366-7544-D2B3-8B516EB02C5D</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>EDC83108-6912-E3BB-2913-F7C75D973F6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_code" id="13C5682C-790A-4247-F594-6C52AE3208F9">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:47:33 UTC</createdTime>
+<generatorID>AC9B8D93-484C-C759-F767-4700C3179047</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>7D358FC8-CB0F-B16F-ECEB-66E7AF09B9FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_code1" id="BF066DD1-9C08-AD17-793F-E1911555A22A">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:48:14 UTC</createdTime>
+<generatorID>5340BC05-F641-5801-E05A-B7506CD8AA03</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<referedAttribute>7D358FC8-CB0F-B16F-ECEB-66E7AF09B9FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1973AD15-0B6D-7884-D406-B5C57E0FC681" name="LEG_INSTANCE PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:38:30 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<engineerTo>
+<item key="57B2E68A-B1CF-69C6-3002-85B9179DA6DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67B0B8E6-41EE-FCCB-9797-9202F0DC9F82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

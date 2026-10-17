@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="041E9674-7D4A-D3E3-A89A-9EBE0FCEE302" name="SEAT">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>8E04580D-01A0-D406-B5E1-EA52CEB802DA</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seat_no" id="08D63946-B5D3-D8C4-1E61-8082428CB1F1">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>DF4CEDE7-BE6B-4394-4E8E-9C1FD26AA51B</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEG_INSTANCE_Date" id="477ED4FC-6931-ADB2-C7F6-C52C2C16589C">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>285ADA38-0DDD-60E7-0EE5-2C77B33B84C9</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B80AF80-12D5-B595-A11B-83E636578F29" referredColumn="BB40F4D0-732A-C93D-BB22-A692282B307E"/>
+</associations>
+</Column>
+<Column name="Costumer_name" id="7B779C6B-529D-CEED-51A3-4D477744065B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>62370206-39B6-B2B2-4661-C74C80BCCD21</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9B80AF80-12D5-B595-A11B-83E636578F29</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Cphone" id="42461564-C476-5A71-C532-A108F6AD7815">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>1EB387B9-FE31-98B6-928A-F64F4FF81522</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9B80AF80-12D5-B595-A11B-83E636578F29</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFA4CE2C-EB77-280F-B52B-025C4FA4FDF2" name="SEAT_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>8FA9CA6F-71DA-DEB7-75CF-B08C00FD68C1</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D63946-B5D3-D8C4-1E61-8082428CB1F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE012156-836B-E184-8449-5E90E5B8B0C3" name="SEAT_LEG_INSTANCE_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>9CBDC29D-D2DD-A385-5621-DA22F261330F</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="477ED4FC-6931-ADB2-C7F6-C52C2C16589C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

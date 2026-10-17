@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4B1E212-7DE4-D005-9038-3C65FC143F4F" name="LEG_INSTANCE">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>AD834112-EEC9-CE37-3F23-84D1314CDDF0</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date" id="BB40F4D0-732A-C93D-BB22-A692282B307E">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>67B0B8E6-41EE-FCCB-9797-9202F0DC9F82</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_of_avail_seat" id="C06C0177-D9DA-CE7D-1167-EE4162552E85">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>0D0C26C9-D242-A6DC-578B-1061874D8B47</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AIRPLANE_Airplane_id" id="5EE2630C-BFA3-4B33-F817-4F5785E09B24">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>25EBEBFC-02DC-5AB0-5A3A-162064075432</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00C0A6C1-3140-83EE-1ED0-12C60510EA73" referredColumn="3F59EC60-B59C-71F7-C147-2EF6200C9D0E"/>
+</associations>
+</Column>
+<Column name="AIRPORT_Airport_code2" id="A6509F68-EA2C-4A97-B9F7-C2530F3CFB92">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>13C5682C-790A-4247-F594-6C52AE3208F9</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B9C0B67-D53A-D1D3-1237-C0B2EE1C0D05" referredColumn="A5F73308-5606-39AC-4676-02B381B0B394"/>
+</associations>
+</Column>
+<Column name="AIRPORT_Airport_code" id="AA446419-73FB-47A9-88B1-D2DFF5FFFBDB">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>BF066DD1-9C08-AD17-793F-E1911555A22A</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14415A94-7492-38DA-5F83-B5E241D13262" referredColumn="A5F73308-5606-39AC-4676-02B381B0B394"/>
+</associations>
+</Column>
+<Column name="Arr_time" id="B0EA3588-0ED4-2EA5-6BA4-C996E53F0D8B">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>D1403BFF-79E6-4F82-6D04-A12808D895A5</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>14415A94-7492-38DA-5F83-B5E241D13262</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Dep_time" id="F55994EE-301A-F9F0-3F00-521E01C46207">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>B58D05FA-0426-7284-5B4C-B09F82082B46</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>2B9C0B67-D53A-D1D3-1237-C0B2EE1C0D05</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="FLIGHT_LEG_FLIGHT_LEG_ID" id="C7AE77E8-C789-04A6-9DCA-9CFDFB9D82CB">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15E46294-DFC4-9B95-9382-53867232A8D3" referredColumn="829A579D-282F-A5DD-C04D-D8495EE0102B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43C13E5F-D2F1-B0C4-24A2-12A7C542BD28" name="LEG_INSTANCE_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>1973AD15-0B6D-7884-D406-B5C57E0FC681</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB40F4D0-732A-C93D-BB22-A692282B307E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C4D13E-8AB3-E36D-D750-9E52A85AD500" name="LEG_INSTANCE_AIRPORT_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>5340BC05-F641-5801-E05A-B7506CD8AA03</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA446419-73FB-47A9-88B1-D2DFF5FFFBDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0DD1568-4AC7-3AEE-D979-2CBDF6818241" name="LEG_INSTANCE_AIRPLANE_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>442ED351-1366-7544-D2B3-8B516EB02C5D</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EE2630C-BFA3-4B33-F817-4F5785E09B24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A72AA3CE-883C-780F-B4D5-D9923F88C9BD" name="LEG_INSTANCE_AIRPORT_FKv2">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>AC9B8D93-484C-C759-F767-4700C3179047</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6509F68-EA2C-4A97-B9F7-C2530F3CFB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15244BE9-9787-B2CF-4EBC-D1B634919236" name="LEG_INSTANCE_FLIGHT_LEG_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 15:55:42 UTC</createdTime>
+<generatorID>36FC432B-FD19-6F49-446A-284514FE380A</generatorID>
+<ownerDesignName>UTS_SBD_3.35</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7AE77E8-C789-04A6-9DCA-9CFDFB9D82CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
