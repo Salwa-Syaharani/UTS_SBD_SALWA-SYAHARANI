@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="identity_paper" directorySegmentName="seg_0" id="5E123A4D-7E2D-2622-E621-9C46FDA7FC53">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:38:26 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<sourcePk>DE8B09DA-1DE6-6F42-8219-32B5CF3B478D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>653EB5B4-4E19-243C-151F-C41F4D538B60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>822ABCF1-D20B-85F4-8C3C-EE1899D2965A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61AE1DDB-3785-2D25-43E2-3BE250344C16" containerWithKeyObject="26AB088F-52A5-5FBD-1CFD-68B49BF82473" localFKIndex="2E57002F-DA22-4D24-DCB7-346A388A3DB1" name="RIVIEW_RIVIEWER_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>A511B0B2-0701-E70A-91DE-CA6F2B5EDB2A</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<referredTableLongName>RIVIEWER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9A3B8E2-7D87-29B5-3931-347320D1873B</referredTableID>
+<keyObject>3A1F3EDD-4D72-501C-0A3B-6AE78D3F74FE</keyObject>
+<referredKeyID>3A1F3EDD-4D72-501C-0A3B-6AE78D3F74FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reviewer_email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BC570E8-4A12-C2BA-6CCB-00B7BB3D2BFB" containerWithKeyObject="C6D1F339-2290-E13E-DE85-1C3747BF436F" localFKIndex="8146337B-A839-0F5D-CF49-C70F57F77AB0" name="PAPER_AUTHOR_AUTHOR_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>F766539F-D352-4991-6F18-DDDE933149B0</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<referredTableLongName>AUTHOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B910BB0A-5097-11AB-AA6F-91E61CC8CCA9</referredTableID>
+<keyObject>45C8F7E0-5C53-5D3E-1482-C7CE56519154</keyObject>
+<referredKeyID>45C8F7E0-5C53-5D3E-1482-C7CE56519154</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>author_email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39E71EFE-19DF-85BB-3128-77367BF54716" name="RIVIEW">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:34:16 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="paper_id" id="3F469622-537B-5AA6-0AB7-CFA058C3A7B8">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:34:22 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reviewer_email" id="E33A0930-95E9-F49B-7CF4-9E0D105A186F">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:34:29 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="technical_merit" id="C10DA843-94E7-0D39-CFC0-4C95E5016B52">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:34:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="readability" id="C78DEB8C-0DED-3611-3E08-CA6195417F5D">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:34:57 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="originality" id="48C20355-46AB-B0CB-161D-E0BB056BA79F">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:35:08 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relevance" id="95FAC303-A13A-330E-519E-03A6FAA5B797">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:35:14 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recommendation" id="F504FB69-18B3-478D-BDF2-5F6A161DB7C3">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:35:18 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paper_id1" id="49B1D64B-87B9-CD04-1F52-26E72CCE9327">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:41:46 UTC</createdTime>
+<generatorID>C4AD8A88-970A-C218-ED2B-BF6572F078EF</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<referedAttribute>925314D5-D92C-D779-8C53-F5731C5D3B29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reviewer_email1" id="0C0FF389-7678-A4AE-7AE9-20B69EC23E13">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:42:13 UTC</createdTime>
+<generatorID>A511B0B2-0701-E70A-91DE-CA6F2B5EDB2A</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<referedAttribute>3D29D825-C022-9495-1122-F951BDC7C62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="628ED8DB-7585-70CA-6390-5132F7788D5E" name="RIVIEW PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:35:42 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F469622-537B-5AA6-0AB7-CFA058C3A7B8</attributeRef>
+<attributeRef>E33A0930-95E9-F49B-7CF4-9E0D105A186F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

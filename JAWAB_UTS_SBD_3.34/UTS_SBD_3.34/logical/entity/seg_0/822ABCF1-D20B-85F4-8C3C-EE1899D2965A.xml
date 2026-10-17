@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="822ABCF1-D20B-85F4-8C3C-EE1899D2965A" name="PAPER_AUTHOR">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:32:54 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="paper_id" id="C42EF3E5-D683-98B9-A1A9-8DB570DF2D2E">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:33:05 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_email" id="A9607C46-204A-248F-57DD-08F2EBD8434A">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:33:12 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_contact" id="A5D38AF7-0779-73FC-CC4E-C13EBA1F9B5D">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:33:17 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paper_id1" id="765AA85C-BCA4-E1F2-6716-85AEC206F0EB">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:38:26 UTC</createdTime>
+<generatorID>5E123A4D-7E2D-2622-E621-9C46FDA7FC53</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<referedAttribute>925314D5-D92C-D779-8C53-F5731C5D3B29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_email1" id="932109B3-7809-0D48-E5F5-E32AC8B3B831">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:39:27 UTC</createdTime>
+<generatorID>F766539F-D352-4991-6F18-DDDE933149B0</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<referedAttribute>549B061B-52E1-30D9-7992-9E11B89A6C04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEF4496A-A5C2-0521-673C-A4D25316C4B4" name="PAPER_AUTHOR PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:33:35 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C42EF3E5-D683-98B9-A1A9-8DB570DF2D2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

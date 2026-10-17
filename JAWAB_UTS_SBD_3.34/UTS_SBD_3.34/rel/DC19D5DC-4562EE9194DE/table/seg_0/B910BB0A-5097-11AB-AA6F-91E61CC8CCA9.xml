@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B910BB0A-5097-11AB-AA6F-91E61CC8CCA9" name="AUTHOR">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>D93315D3-6A40-3646-1661-3254CE57D431</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="author_email" id="4C93814E-D36A-D1FE-961E-508A94D59A97">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>549B061B-52E1-30D9-7992-9E11B89A6C04</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="3CDDE442-205B-88FE-55CE-D9A515ABCFD2">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>F61C41AB-B3B1-967C-6F90-E7DC14358B35</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="0D6F6B0D-2F68-B83A-2A74-01B404084C88">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>4C569C19-5B24-7E9C-B869-11788DFA9AE1</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45C8F7E0-5C53-5D3E-1482-C7CE56519154" name="AUTHOR_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>D3AF1018-E941-1C29-5F91-0699B7B443EF</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C93814E-D36A-D1FE-961E-508A94D59A97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB42E1D9-52C4-5DCE-3DCF-E03CA0AFAE06" name="PAPER">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>653EB5B4-4E19-243C-151F-C41F4D538B60</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="EF85694D-8D6C-FBD8-4D41-11C35FE3E16D">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>0596AA6A-0732-4961-F445-C6DB5F31A538</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abstract" id="C2D1A906-BDEE-7DF2-722E-3212E23CA579">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>D13A1B79-2947-7872-7089-DCB574DB444E</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_name" id="6DBC8F46-B9D3-3EE6-49E7-D2F9FE410764">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>40990B36-4F58-3831-91C9-8DE9066C993E</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paper_id1" id="3FFB21E2-2552-4439-C7BA-D58BB36008D5">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>925314D5-D92C-D779-8C53-F5731C5D3B29</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE4B2901-2C0A-0770-B88D-6F69BDFCDC7F" name="PAPER_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>DE8B09DA-1DE6-6F42-8219-32B5CF3B478D</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FFB21E2-2552-4439-C7BA-D58BB36008D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

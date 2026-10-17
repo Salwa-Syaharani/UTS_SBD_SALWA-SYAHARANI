@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6D1F339-2290-E13E-DE85-1C3747BF436F" name="PAPER_AUTHOR">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>822ABCF1-D20B-85F4-8C3C-EE1899D2965A</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paper_id" id="BC4E2835-FCD7-61DB-5E7A-A92FB9755F8D">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>C42EF3E5-D683-98B9-A1A9-8DB570DF2D2E</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_email" id="0A9EA198-10E3-1521-F39D-D3C0F2FE8DCB">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>A9607C46-204A-248F-57DD-08F2EBD8434A</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_contact" id="62ACC520-B48C-347C-8D78-6A926EB47EC4">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>A5D38AF7-0779-73FC-CC4E-C13EBA1F9B5D</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAPER_paper_id1" id="BF2F3E03-07CF-A4C1-DB16-225AE3A4E7B8">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>765AA85C-BCA4-E1F2-6716-85AEC206F0EB</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94CD00EF-B7F3-4AFF-CEC9-4F21B018C7EE" referredColumn="3FFB21E2-2552-4439-C7BA-D58BB36008D5"/>
+</associations>
+</Column>
+<Column name="AUTHOR_author_email" id="80CD1D17-9309-AA45-C53F-1DBFDFB1A51F">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>932109B3-7809-0D48-E5F5-E32AC8B3B831</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BC570E8-4A12-C2BA-6CCB-00B7BB3D2BFB" referredColumn="4C93814E-D36A-D1FE-961E-508A94D59A97"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A5E3748-FC98-2803-8EB0-C1B5F45EA877" name="PAPER_AUTHOR_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>CEF4496A-A5C2-0521-673C-A4D25316C4B4</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC4E2835-FCD7-61DB-5E7A-A92FB9755F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8146337B-A839-0F5D-CF49-C70F57F77AB0" name="PAPER_AUTHOR_AUTHOR_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>F766539F-D352-4991-6F18-DDDE933149B0</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CD1D17-9309-AA45-C53F-1DBFDFB1A51F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="536944BE-0921-4200-A0E9-649CE5BD1817" name="PAPER_AUTHOR_PAPER_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>5E123A4D-7E2D-2622-E621-9C46FDA7FC53</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF2F3E03-07CF-A4C1-DB16-225AE3A4E7B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

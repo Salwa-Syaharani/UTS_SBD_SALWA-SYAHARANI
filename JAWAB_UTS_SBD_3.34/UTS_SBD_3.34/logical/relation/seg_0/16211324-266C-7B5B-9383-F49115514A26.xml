@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rating_topic" directorySegmentName="seg_0" id="16211324-266C-7B5B-9383-F49115514A26">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:42:46 UTC</createdTime>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<engineerTo>
+<item key="DC19D5DC-8768-3406-F0F0-4562EE9194DE" value="true"/>
+</engineerTo>
+<sourcePk>628ED8DB-7585-70CA-6390-5132F7788D5E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39E71EFE-19DF-85BB-3128-77367BF54716</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63A4C99F-6730-0A53-C82E-F74C5B7BEE3B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

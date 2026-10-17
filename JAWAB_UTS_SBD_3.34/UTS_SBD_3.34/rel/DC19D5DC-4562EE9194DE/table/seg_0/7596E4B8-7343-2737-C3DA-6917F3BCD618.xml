@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7596E4B8-7343-2737-C3DA-6917F3BCD618" name="REVIEWER_TOPIC">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>63A4C99F-6730-0A53-C82E-F74C5B7BEE3B</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reviewer_email" id="7E080A51-999C-F453-4E13-F7F2833B7060">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>60F65E6D-A0F6-845E-1262-42EF2A48D39A</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="topic" id="239A2C39-9892-6D57-D395-D380F01D2B74">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>B91113C8-BDE3-1CEE-7CE1-71EC4D153FAF</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIVIEW_paper_id" id="896D837D-813B-8DF2-B708-8FB65E697822">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>DB518D4A-E538-0986-1DD1-CBD5929451D9</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5484324E-9004-60A6-3F4D-A6AEC16E0A6E" referredColumn="5B9807A6-00EA-9FB4-EA7C-B6CA6CBCA6CC"/>
+</associations>
+</Column>
+<Column name="RIVIEW_reviewer_email" id="C8BF3211-D119-6EEF-CB5B-AE10B8C122F0">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>431479B0-7897-792B-0704-162532C6677D</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5484324E-9004-60A6-3F4D-A6AEC16E0A6E" referredColumn="2603C26E-FA7C-99BE-5934-DD83539ABA2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89FF7728-BD93-C67F-19B7-D1D286AE9C6F" name="REVIEWER_TOPIC_PK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>B5A93A9B-2B3A-EAEE-62CF-60D06ED3DC35</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E080A51-999C-F453-4E13-F7F2833B7060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD1C3DF-2309-59E9-C70D-265434992BD9" name="REVIEWER_TOPIC_RIVIEW_FK">
+<createdBy>Salwa</createdBy>
+<createdTime>2026-10-17 14:45:31 UTC</createdTime>
+<generatorID>16211324-266C-7B5B-9383-F49115514A26</generatorID>
+<ownerDesignName>UTS_SBD_3.34</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="896D837D-813B-8DF2-B708-8FB65E697822"/>
+<colUsage columnID="C8BF3211-D119-6EEF-CB5B-AE10B8C122F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
